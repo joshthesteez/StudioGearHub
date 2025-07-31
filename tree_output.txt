@@ -1,0 +1,175 @@
+﻿+-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
+|   +-- data
+|   |   +-- sampleData.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
+|   +-- data
+|   |   +-- sampleData.ts
+|   +-- hooks
+|   |   +-- useProduct.ts
+|   |   +-- useProducts.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
+|   +-- data
+|   |   +-- sampleData.ts
+|   +-- hooks
+|   |   +-- useProduct.ts
+|   |   +-- useProducts.ts
+|   +-- lib
+|   |   +-- db.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
+|   +-- data
+|   |   +-- sampleData.ts
+|   +-- hooks
+|   |   +-- useProduct.ts
+|   |   +-- useProducts.ts
+|   +-- lib
+|   |   +-- db.ts
+|   +-- styles
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
+|   +-- data
+|   |   +-- sampleData.ts
+|   +-- hooks
+|   |   +-- useProduct.ts
+|   |   +-- useProducts.ts
+|   +-- lib
+|   |   +-- db.ts
+|   +-- styles
+|   +-- types
+|   |   +-- index.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
+|   +-- data
+|   |   +-- sampleData.ts
+|   +-- hooks
+|   |   +-- useProduct.ts
+|   |   +-- useProducts.ts
+|   +-- lib
+|   |   +-- db.ts
+|   +-- styles
+|   +-- types
+|   |   +-- index.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   +-- product
+|   |   +-- search
+|   |   +-- ui
+|   +-- data
+|   |   +-- sampleData.ts
+|   +-- hooks
+|   |   +-- useProduct.ts
+|   |   +-- useProducts.ts
+|   +-- lib
+|   |   +-- db.ts
+|   +-- styles
+|   +-- types
+|   |   +-- index.ts
++-- .env.local
++-- .gitignore
++-- eslint.config.mjs
++-- generate_tree.ps1
++-- next-env.d.ts
++-- next.config.ts
++-- package-lock.json
++-- package.json
++-- postcss.config.js
++-- README.md
++-- tailwind.config.js
++-- tsconfig.json
