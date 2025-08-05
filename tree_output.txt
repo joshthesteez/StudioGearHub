@@ -1,6 +1,61 @@
 ﻿+-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -8,19 +63,33 @@
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
 |   |   +-- page.tsx
 |   +-- components
 |   |   +-- comparison
-|   |   +-- layout
-|   |   +-- product
-|   |   +-- search
-|   |   +-- ui
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -28,14 +97,152 @@
 |   +-- components
 |   |   +-- comparison
 |   |   +-- layout
+|   |   |   +-- Header.tsx
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   |   +-- Header.tsx
 |   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   |   +-- Header.tsx
+|   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
+|   |   +-- search
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   |   +-- Header.tsx
+|   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
 |   |   +-- search
 |   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   |   +-- Header.tsx
+|   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
+|   |   +-- search
+|   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
++-- src
+|   +-- app
+|   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
+|   |   +-- favicon.ico
+|   |   +-- globals.css
+|   |   +-- layout.tsx
+|   |   +-- page.tsx
+|   +-- components
+|   |   +-- comparison
+|   |   +-- layout
+|   |   |   +-- Header.tsx
+|   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
+|   |   +-- search
+|   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
 |   +-- data
 |   |   +-- sampleData.ts
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -43,9 +250,15 @@
 |   +-- components
 |   |   +-- comparison
 |   |   +-- layout
+|   |   |   +-- Header.tsx
 |   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
 |   |   +-- search
 |   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
 |   +-- data
 |   |   +-- sampleData.ts
 |   +-- hooks
@@ -54,6 +267,15 @@
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -61,9 +283,15 @@
 |   +-- components
 |   |   +-- comparison
 |   |   +-- layout
+|   |   |   +-- Header.tsx
 |   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
 |   |   +-- search
 |   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
 |   +-- data
 |   |   +-- sampleData.ts
 |   +-- hooks
@@ -74,6 +302,15 @@
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -81,9 +318,15 @@
 |   +-- components
 |   |   +-- comparison
 |   |   +-- layout
+|   |   |   +-- Header.tsx
 |   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
 |   |   +-- search
 |   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
 |   +-- data
 |   |   +-- sampleData.ts
 |   +-- hooks
@@ -95,6 +338,15 @@
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -102,9 +354,15 @@
 |   +-- components
 |   |   +-- comparison
 |   |   +-- layout
+|   |   |   +-- Header.tsx
 |   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
 |   |   +-- search
 |   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
 |   +-- data
 |   |   +-- sampleData.ts
 |   +-- hooks
@@ -118,6 +376,15 @@
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -125,9 +392,15 @@
 |   +-- components
 |   |   +-- comparison
 |   |   +-- layout
+|   |   |   +-- Header.tsx
 |   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
 |   |   +-- search
 |   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
 |   +-- data
 |   |   +-- sampleData.ts
 |   +-- hooks
@@ -141,6 +414,15 @@
 +-- src
 |   +-- app
 |   |   +-- api
+|   |   |   +-- brands
+|   |   |   |   +-- route.ts
+|   |   |   +-- categories
+|   |   |   |   +-- route.ts
+|   |   |   +-- products
+|   |   |   |   +-- [slug]
+|   |   |   |   +-- route.ts
+|   |   |   +-- test_db
+|   |   |   |   +-- route.ts
 |   |   +-- favicon.ico
 |   |   +-- globals.css
 |   |   +-- layout.tsx
@@ -148,9 +430,15 @@
 |   +-- components
 |   |   +-- comparison
 |   |   +-- layout
+|   |   |   +-- Header.tsx
 |   |   +-- product
+|   |   |   +-- ProductCard.tsx
+|   |   |   +-- ProductGrid.tsx
 |   |   +-- search
 |   |   +-- ui
+|   |   |   +-- button.tsx
+|   |   |   +-- card.tsx
+|   |   |   +-- input.tsx
 |   +-- data
 |   |   +-- sampleData.ts
 |   +-- hooks
@@ -172,4 +460,5 @@
 +-- postcss.config.js
 +-- README.md
 +-- tailwind.config.js
++-- tree_output.txt
 +-- tsconfig.json

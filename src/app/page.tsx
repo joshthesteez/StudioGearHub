@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from '@/components/layout/Header';
 import { ProductCard } from '@/components/product/ProductCard';
+import { HeroSearch } from '@/components/search/HeroSearch';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -102,21 +103,7 @@ export default function HomePage() {
             
             {/* Hero Search Bar */}
             <div className="max-w-2xl mx-auto">
-              <div className="relative">
-                <Input
-                  type="text"
-                  placeholder="Search for audio interfaces, microphones, monitors..."
-                  className="h-14 text-lg bg-white text-primary-900 border-0 shadow-lg"
-                  icon={<MagnifyingGlassIcon className="h-6 w-6 text-primary-400" />}
-                />
-                <Button 
-                  variant="accent" 
-                  size="lg"
-                  className="absolute right-2 top-2 h-10"
-                >
-                  Search
-                </Button>
-              </div>
+              <HeroSearch />
             </div>
 
             {/* Quick Stats */}
@@ -221,7 +208,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Rest of your existing homepage sections... */}
       {/* Features Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
