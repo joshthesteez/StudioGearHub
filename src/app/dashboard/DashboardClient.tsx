@@ -91,7 +91,7 @@ export default function DashboardClient({ user, stats }: DashboardClientProps) {
                 href="/products"
                 className="inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Browse Products
+                Browse Featured Products
               </Link>
               <Link
                 href="/dashboard/saved"
